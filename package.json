@@ -1,0 +1,20 @@
+{
+  "name": "chartcreator",
+  "version": "1.0.0",
+  "description": "Charting program",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chart.js": "^2.6.0",
+    "chartjs-node": "^1.5.0",
+    "express": "^4.15.4"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Sean Moore",
+  "license": "MIT"
+}
