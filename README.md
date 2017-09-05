@@ -2,16 +2,13 @@
 
 Description:  Server side chart creator based on Chart.js.
 
-Author: Sean Moore sean.moore@thoughtexpress.com
-
+Author: seanabmoore@gmail.com
 
 
 
 ## 1.   Prerequisites
 
 Ensure Node and npm are installed and up to date
-
-==============
 
 
 ## 2.   Cairo Install
@@ -21,14 +18,16 @@ You'll need to install Cairo for your system.
 ###  2.1.   Ubuntu users
 
 run the install.sh script:	
-        ```sudo sh install.sh```
+       
+       ```sudo sh install.sh```
 
 ### 2.2.     Other's
 
 Refer to https://github.com/Automattic/node-canvas#installation
 
 ## 	2.3.    npm install
-	   ```npm install ```
+
+	```npm install ```
 
 This will download the dependencies specified in package.json
 
@@ -38,7 +37,10 @@ This will download the dependencies specified in package.json
 
 Start the server:		
 
+
  ```node server.js ```
+ 
+ 
 The server will respond to POST requests that contain a json body with the options required for Chart.js
 
 ## Example JSON
